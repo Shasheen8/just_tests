@@ -1,0 +1,1 @@
+mylist = [1,-2,-5,2,3,4]x = 0def positive_int(x):    for num in mylist:        x += num        return xprint(sum(mylist))

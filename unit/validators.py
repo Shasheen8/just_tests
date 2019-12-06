@@ -1,0 +1,1 @@
+class Validator:    def username_is_valid(self,username):        if len(username) < 6:            return False        if "" in username :            return False        if username.islower():            return False        else :            return True
