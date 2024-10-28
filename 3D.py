@@ -34,6 +34,16 @@ AWS_ACCESS_KEY_ID=(1Password entry name node-bff-app)
 AWS_SECRET_ACCESS_KEY=(1Password entry name node-bff-app)
 DUNLOP_ROOT=some_dunlop_root
 DUNLOP_API_KEY=some_dunlop_api_key
+
+Creating a ticket
+
+
+fotingo start --project <JIRA_PROJ> --title "<TICKET_TITLE>" --kind <TICKET_TYPE>
+Example
+
+
+
+fotingo start --project DEVOPS --title "Create a cheat sheet" --kind task
 ENABLE_INTROSPECTION=true
 STORYBLOK_API_KEY=storyblok_api_token: (1Password entry name turo-storyblok-cdn)
 STORYBLOK_INCLUDE_DRAFTS=true
