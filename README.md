@@ -42,3 +42,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def analyze_email_headers(email_file):
+    try:
+        with open(email_file, "r") as file:
+            email_message = file.read()
+
+        # Parse the raw email message
+        msg = email.message_from_string(email_message)
