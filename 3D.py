@@ -38,6 +38,8 @@ DUNLOP_API_KEY=some_dunlop_api_key
 Creating a ticket
 
 
+
+
 fotingo start --project <JIRA_PROJ> --title "<TICKET_TITLE>" --kind <TICKET_TYPE>
 Example
 
@@ -48,3 +50,20 @@ ENABLE_INTROSPECTION=true
 STORYBLOK_API_KEY=storyblok_api_token: (1Password entry name turo-storyblok-cdn)
 STORYBLOK_INCLUDE_DRAFTS=true
 VEHICLE_SEARCH_SERVICE_URL=http://localhost:8081
+
+variable "resources_unique_id" {
+  description = "Suffix to use in resource names to avoid naming collisions when running the tests"
+  type        = string
+  default     = ""
+}
+- Migrate 15 SaaS application to Okta Single-Sign-On. 
+- Implement MFA standards for applications without SSO support.
+
+nano ~/.zshrc
+
+export FALCON_CLIENT_ID=""
+export FALCON_CLIENT_SECRET=""
+
+cat ~/.zshrc
+
+source ~/.zshrc
